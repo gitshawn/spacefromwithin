@@ -1,7 +1,7 @@
 # Site settings
 title: Space From Within
 description: South Florida Interior Decoration
-baseurl: "/lens-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "/spacefromwithin" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
 
