@@ -29,7 +29,7 @@
 		}
 
 		.inner {
-			@include vendor('pointer-events', 'none');
+			/* @include vendor('pointer-events', 'none'); */
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -42,10 +42,6 @@
 			}
 
 			&:before {
-				@include vendor('background-image', (
-					'linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0))',
-					'linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0))'
-				));
 				content: '';
 				display: block;
 				position: absolute;
@@ -113,7 +109,8 @@
 			z-index: 1;
 
 			.caption {
-				opacity: 0;
+				visibility: hidden;
+				opacity: 1;
 			}
 
 			.image {
