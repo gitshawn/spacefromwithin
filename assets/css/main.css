@@ -1050,6 +1050,7 @@
 
 			#viewer .inner .nav-next,
 			#viewer .inner .nav-previous {
+				/*
 				-webkit-tap-highlight-color: transparent;
 				position: absolute;
 				top: 50%;
@@ -1061,6 +1062,9 @@
 				background-repeat: no-repeat;
 				background-size: contain;
 				cursor: pointer;
+				*/
+				visibility: hidden;
+				opacity: 1;
 			}
 
 			#viewer .inner .nav-previous {
